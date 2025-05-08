@@ -1,10 +1,15 @@
+<p align="center">
+  <img src="zokistasks_icon.png" alt="ZokiList Icon" width="150" height="150">
+</p>
+
 # ZokiList
 
 ## Overview
 ZokiList is an iOS application that connects to Firebase to help users organize and manage their tasks across multiple categories. The app provides a simple, clean interface following iOS design guidelines.
 
 ## Features
-- User-specific task lists (no formal authentication required)
+- Device-specific task lists for enhanced privacy and security
+- User identification via simple name entry (no formal authentication required)
 - Four distinct task categories: Daily Tasks, Sams, Woodman, and Other
 - Task creation, editing, and completion tracking
 - Task detail view for reviewing and modifying task information
@@ -46,9 +51,10 @@ ZokiList/
 ```
 
 ## Recent Updates
+- Implemented device-specific task lists for enhanced privacy and security
+- Improved user ID generation to ensure data privacy across different devices
 - Implemented secure Keychain storage for persistent user identification
-- Added logout functionality with data preservation 
-- Improved user ID generation for consistent data access
+- Added logout functionality with data preservation
 - Added four distinct task categories: Daily Tasks, Sams, Woodman, and Other
 - Created task detail view for better task management
 - Fixed UI issues with task selection and display
